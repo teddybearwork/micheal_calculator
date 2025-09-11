@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Calculator, ArrowRight, ArrowLeft, Building, Mail, CheckCircle, Clock, DollarSign, AlertTriangle, TrendingDown } from 'lucide-react';
 
+
+
 const SavingsCalculator = () => {
   const [step, setStep] = useState(1);
   const [projectType, setProjectType] = useState('');

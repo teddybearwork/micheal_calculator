@@ -171,21 +171,18 @@ const SavingsCalculator = () => {
             
             <div className="grid md:grid-cols-2 gap-4 mb-8">
               <button
-                onClick={() => setProjectType('gypcrete')}
-                className={`p-6 rounded-xl border-2 text-left transition-all duration-200 ${
-                  projectType === 'gypcrete' 
-                    ? 'border-orange-500 bg-orange-50' 
-                    : 'border-gray-200 hover:border-orange-300'
-                }`}
+                onClick={() => handleProjectTypeSelect('gypcrete')}
+                className="p-6 border border-orange-300 rounded-lg hover:border-orange-400 transition-colors text-left"
               >
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  Gypcrete Underlayment
-                </h3>
-                <p className="text-gray-600 text-sm">
-                  Replace OSB + Gypcrete with OSB + MAXTERRA Underlayment
+                <p className="text-orange-600 text-xs font-medium mb-1">Wet Gypsum</p>
+                <h3 className="text-lg font-medium text-gray-900 mb-2">Underlayment</h3>
+                <p className="text-gray-600 text-sm mb-2">
+                  Replace OSB + MAXTERRA Underlayment
+                </p>
+                <p className="text-gray-600 text-xs">
+                  MgO Fire- and Water-Resistant Underlayment
                 </p>
               </button>
-
               <button
                 onClick={() => setProjectType('subfloor')}
                 className={`p-6 rounded-xl border-2 text-left transition-all duration-200 ${

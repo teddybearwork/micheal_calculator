@@ -193,7 +193,7 @@ const SavingsCalculator = () => {
               >
                 <h3 className="text-lg font-medium text-gray-900 mb-2">Entire Subfloor System</h3>
                 <p className="text-gray-600 text-sm mb-2">
-                  Replace <span className="line-through">competitor</span> subfloor with MAXTERRA Single Layer Subfloor
+                  Replace subfloor with MAXTERRA Single Layer Subfloor
                 </p>
                 <p className="text-orange-600 text-xs font-medium">
                   MgO Non-Combustible Single Layer Structural Floor Panels

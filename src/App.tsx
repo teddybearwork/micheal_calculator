@@ -165,7 +165,7 @@ const SavingsCalculator = () => {
           </div>
 
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-2xl font-semibold text-gray-900 mb-6 text-center">
+            <h2 className="font-manrope font-semibold text-[36px] leading-[56px] tracking-[-0.03em] text-center text-gray-900 mb-6">
               What are you looking to replace?
             </h2>
             

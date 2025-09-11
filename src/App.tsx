@@ -396,7 +396,7 @@ const SavingsCalculator = () => {
           )}
 
           <div className="text-center">
-            <h3 className="text-xl font-semibold text-gray-900 mb-4">
+            <h3 className="font-manrope font-semibold text-[36px] leading-[56px] tracking-[-0.03em] text-center text-gray-900 mb-4">
               Get Your Complete Savings Analysis
             </h3>
             <p className="text-gray-600 mb-6">

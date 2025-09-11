@@ -177,7 +177,7 @@ const SavingsCalculator = () => {
                   <span className="text-orange-600 font-semibold">Wet Gypsum</span> Underlayment
                 </h3>
                 <p className="text-gray-600 text-sm mb-2">
-                  Replace OSB + <span className="text-orange-600 font-semibold">Wet Gypsum</span> with OSB + MAXTERRA Underlayment
+                  Replace OSB + <span className="text-orange-600 font-semibold">Wet Gypsum</span> with  MAXTERRA Underlayment
                 </p>
                 <p className="text-orange-600 text-xs font-medium">
                   MgO Fire- and Water-Resistant Underlayment

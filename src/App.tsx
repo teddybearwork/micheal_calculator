@@ -11,6 +11,10 @@ const SavingsCalculator = () => {
   const [email, setEmail] = useState('');
   const [showFullReport, setShowFullReport] = useState(false);
 
+  const handleProjectTypeSelect = (type) => {
+    setProjectType(type);
+  };
+
   // Competitor cost data from battle cards - using maximum approved spacing for each product
   const competitorData = {
     structocrete: {

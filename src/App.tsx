@@ -152,17 +152,7 @@ const SavingsCalculator = () => {
     return (
       <div className="max-w-4xl mx-auto p-6 bg-gradient-to-br from-blue-50 to-indigo-100 min-h-screen">
         <div className="bg-white rounded-2xl shadow-2xl p-8">
-          <div className="text-center mb-8">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-orange-100 rounded-full mb-4">
-              <Calculator className="w-8 h-8 text-orange-600" />
-            </div>
-            <h1 className="text-4xl font-bold text-gray-900 mb-4">
-              Find Out How Much Time and Money You Can Save
-            </h1>
-            <p className="text-xl text-gray-600 mb-2">
-              Skipping Gypcrete — In 60 Seconds
-            </p>
-          </div>
+          
 
           <div className="max-w-2xl mx-auto">
             <h2 className="font-manrope font-semibold text-[36px] leading-[56px] tracking-[-0.03em] text-center text-gray-900 mb-6">

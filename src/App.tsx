@@ -234,6 +234,12 @@ const SavingsCalculator = () => {
           </div>
 
           <div className="text-center mb-8">
+            <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-4 relative">
+                <Calculator className="w-8 h-8 text-orange-600" />
+                <div className="absolute -bottom-1 -right-1 w-6 h-6 bg-orange-600 rounded-full flex items-center justify-center">
+                  <span className="text-white text-xs font-medium">$</span>
+                </div>
+              </div>
             <h2 className="text-3xl font-bold text-gray-900 mb-4">Project Details</h2>
             <p className="text-gray-600">Tell us about your project for accurate savings calculations</p>
           </div>

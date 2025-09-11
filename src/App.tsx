@@ -396,7 +396,7 @@ const SavingsCalculator = () => {
           )}
 
           <div className="text-center">
-            <h3 className="font-manrope font-semibold text-[36px] leading-[56px] tracking-[-0.03em] text-center text-gray-900 mb-4">
+            <h3 className="text-xl font-semibold text-gray-900 mb-4">
               Get Your Complete Savings Analysis
             </h3>
             <p className="text-gray-600 mb-6">
@@ -516,7 +516,7 @@ const SavingsCalculator = () => {
         </div>
 
         <div className="bg-gradient-to-r from-orange-500 to-red-600 rounded-xl p-6 text-white text-center">
-          <h3 className="text-2xl font-bold mb-4">Ready to Start Saving?</h3>
+          <h3 className="font-manrope font-semibold text-[36px] leading-[56px] tracking-[-0.03em] text-center mb-4">Ready to Start Saving?</h3>
           <p className="mb-6 text-lg">
             These savings are just the beginning. Let's discuss how MAXTERRA can optimize your specific project.
           </p>

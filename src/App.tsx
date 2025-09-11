@@ -169,7 +169,7 @@ const SavingsCalculator = () => {
               What are you looking to replace?
             </h2>
             
-            <div className="grid md:grid-cols-2 gap-4 mb-8">
+            <div className="grid md:grid-cols-2 gap-4">
               <button
                 onClick={() => handleProjectTypeSelect('gypcrete')}
                 className="p-6 border border-orange-300 rounded-lg hover:border-orange-400 transition-colors text-left"
@@ -183,19 +183,17 @@ const SavingsCalculator = () => {
                   MgO Fire- and Water-Resistant Underlayment
                 </p>
               </button>
+
               <button
-                onClick={() => setProjectType('subfloor')}
-                className={`p-6 rounded-xl border-2 text-left transition-all duration-200 ${
-                  projectType === 'subfloor' 
-                    ? 'border-orange-500 bg-orange-50' 
-                    : 'border-gray-200 hover:border-orange-300'
-                }`}
+                onClick={() => handleProjectTypeSelect('subfloor')}
+                className="p-6 border border-gray-300 rounded-lg hover:border-gray-400 transition-colors text-left"
               >
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  Entire Subfloor System
-                </h3>
-                <p className="text-gray-600 text-sm">
-                  Replace competitor subfloor with MAXTERRA Single Layer Subfloor
+                <h3 className="text-lg font-medium text-gray-900 mb-2">Entire Subfloor System</h3>
+                <p className="text-gray-600 text-sm mb-2">
+                  Replace subfloor with MAXTERRA
+                </p>
+                <p className="text-gray-600 text-xs">
+                  MgO Non-Combustible Single Layer Structural Floor Panels
                 </p>
               </button>
             </div>

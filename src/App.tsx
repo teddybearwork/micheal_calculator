@@ -166,34 +166,48 @@ const SavingsCalculator = () => {
             <div className="grid md:grid-cols-2 gap-4">
               <button
                 onClick={() => handleProjectTypeSelect('gypcrete')}
-                className="p-6 border border-orange-300 rounded-lg hover:border-orange-400 transition-colors text-left"
+                className={`p-6 border-2 rounded-lg transition-colors text-left ${
+                  projectType === 'gypcrete' 
+                    ? 'border-orange-500 bg-orange-50' 
+                    : 'border-gray-300 hover:border-orange-400'
+                }`}
+                  projectType === 'gypcrete' 
+                    ? 'border-orange-500 bg-orange-50' 
+                    : 'border-gray-300 hover:border-orange-400'
+                }`}
               >
                 
-                <h3 className="text-lg font-medium text-gray-900 mb-2"><strong className="text-orange-600">Wet Gypsum </strong>Underlayment</h3>
+                <h3 className="text-lg font-medium text-gray-900 mb-2">
+                  <span className="text-orange-600 font-semibold">Wet Gypsum</span> Underlayment
+                </h3>
                 <p className="text-gray-600 text-sm mb-2">
-                  Replace OSB + <strong className="text-orange-600">Wet Gypsum </strong>with MAXTERRA <strong className="text-orange-600">MgO Fire- and Water-Resistant Underlayment</strong> 
+                  Replace OSB + <span className="line-through">Gypcrete</span> with OSB + MAXTERRA Underlayment
                 </p>
-                <p className="text-gray-600 text-xs">
-                  
+                <p className="text-orange-600 text-xs font-medium">
+                  MgO Fire- and Water-Resistant Underlayment
                 </p>
               </button>
 
               <button
                 onClick={() => handleProjectTypeSelect('subfloor')}
-                className="p-6 border border-gray-300 rounded-lg hover:border-gray-400 transition-colors text-left"
+                className={`p-6 border-2 rounded-lg transition-colors text-left ${
+                  projectType === 'subfloor' 
+                    ? 'border-orange-500 bg-orange-50' 
+                    : 'border-gray-300 hover:border-gray-400'
+                }`}
               >
                 <h3 className="text-lg font-medium text-gray-900 mb-2">Entire Subfloor System</h3>
                 <p className="text-gray-600 text-sm mb-2">
-                  Replace subfloor with MAXTERRA <strong className="text-orange-600">MgO Non-Combustible Single Layer Structural Floor Panels</strong>
+                  Replace <span className="line-through">competitor</span> subfloor with MAXTERRA Single Layer Subfloor
                 </p>
-                <p className="text-gray-600 text-xs">
-                  
+                <p className="text-orange-600 text-xs font-medium">
+                  MgO Non-Combustible Single Layer Structural Floor Panels
                 </p>
               </button>
             </div>
 
             {projectType && (
-              <div className="text-center">
+              <div className="text-center mt-8">
                 <button
                   onClick={() => setStep(2)}
                   className="bg-gradient-to-r from-orange-500 to-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:shadow-lg transition-all duration-200 flex items-center justify-center mx-auto"

@@ -180,7 +180,7 @@ const SavingsCalculator = () => {
                   Replace OSB + <strong className="text-orange-600">Wet Gypsum </strong>with MAXTERRA 
                 </p>
                 <p className="text-gray-600 text-xs">
-                  MgO Fire- and Water-Resistant Underlayment
+                  <strong className="text-orange-600">MgO Fire- and Water-Resistant Underlayment</strong>
                 </p>
               </button>
 

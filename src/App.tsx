@@ -171,10 +171,6 @@ const SavingsCalculator = () => {
                     ? 'border-orange-500 bg-orange-50' 
                     : 'border-gray-300 hover:border-orange-400'
                 }`}
-                  projectType === 'gypcrete' 
-                    ? 'border-orange-500 bg-orange-50' 
-                    : 'border-gray-300 hover:border-orange-400'
-                }`}
               >
                 
                 <h3 className="text-lg font-medium text-gray-900 mb-2">
